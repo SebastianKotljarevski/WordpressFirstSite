@@ -1,0 +1,43 @@
+body {
+    text-align: left;
+}
+
+#ttr_sidebar {
+    border-left: 1px solid black;
+}
+
+.title {
+    font-size: 11pt;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+#ttr_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6A041D;
+    border-radius: 0;
+    box-shadow: 1px 1px 10px #888888;
+    margin-bottom: 6em;
+}
+
+.jumbotron li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.jumbotron h1, a {
+    color: white;
+}
+
+.jumbotron a:hover {
+    color: #D3D3D3;
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 8px 6px -6px black;
+}
